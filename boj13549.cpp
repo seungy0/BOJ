@@ -11,15 +11,14 @@ int main(){
     ios::sync_with_stdio(0); cin.tie(0);
     int n,k;
     cin >> n >> k;
-    vector<vector<int>> dp(100001,vector<int)(2,0));
+    vector<int> t(100001,0);
     vector<bool> visited(100001,false);
-    queue<vector<int>> q;
-    q.push({n,0});
+    deque<int> dq;
+    dq.push_bacl(n);
     visited[n]=true;
-    while(1){
-        vector<int> tmp=q.pop();
-        int k=tmp[0];
-        while(k<)
+    while(!dq.empty()){
+        int tmp=dq.front();
+        
     }
     for(int i=0;i<=k;i++)
         cout << dp[i] <<" ";
