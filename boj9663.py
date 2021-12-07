@@ -23,4 +23,3 @@ ans=0
 col=[0 for i in range(n)]
 nqueen(0)
 print(ans)
-
