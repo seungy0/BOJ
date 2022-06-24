@@ -33,6 +33,5 @@ int main(){
     for(int i=nodes.size()-1; i>=nodes.size()-cnt; i--){
         ans+=(long long)nodes[i];
     }
-    cout << cnt;
     cout << ans;
 }
